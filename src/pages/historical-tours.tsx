@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 
 export default function Historical() {
   const router = useRouter();
-  const { city } = router.query;  // Mengambil nama kota dari URL query
+  const { city } = router.query;
 
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-6">
