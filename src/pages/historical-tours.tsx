@@ -1,5 +1,3 @@
-import { useRouter } from 'next/router'
-
 const HistoricalTour = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-6">
@@ -7,11 +5,6 @@ const HistoricalTour = () => {
 
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 space-y-6">
         <div className="text-center">
-          <img
-            src="/historical-image.jpg"
-            alt="Historical Image"
-            className="w-full h-64 object-cover rounded-lg mb-4"
-          />
         </div>
 
         <div className="text-lg text-gray-700">
